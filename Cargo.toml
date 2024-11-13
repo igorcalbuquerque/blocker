@@ -1,0 +1,13 @@
+[package]
+name = "sites_block"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+nix = { version = "0.25", optional = true }
+winapi = { version = "0.3", features = ["winnt", "processthreadsapi"], optional = true }
+
+[features]
+default = []
+unix = ["nix"]
+windows = ["winapi"]
