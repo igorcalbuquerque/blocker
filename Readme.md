@@ -28,3 +28,6 @@ cargo build --features unix
 ```bash
 cargo build --features windows
 ```
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
