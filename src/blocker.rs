@@ -1,5 +1,5 @@
 use crate::hosts_manager::HostManager;
-use std::collection::HashSet;
+use std::collections::HashSet;
 
 pub struct Blocker {
     manager: HostManager,
